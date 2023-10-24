@@ -52,7 +52,7 @@ return(
   type="text"
   value={todo}
   onChange={(e) => setTodo(e.target.value)}
-  placeholder="          Type here to add    ">
+  placeholder="          Type here to add    "/>
 
   <button type="submit">{editId?"Edit":"Add"}</button>
   </form>
